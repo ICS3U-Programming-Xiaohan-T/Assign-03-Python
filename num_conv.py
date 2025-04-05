@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Created By: Xiaohan
-# Date: Feb 21, 2025
+# Date: Apr 5, 2025
 # This program that compare 3 numbers from smallest to biggest
 
 def main():
@@ -55,6 +55,7 @@ def main():
             # Show the smallest and largest number
         smallest = min(first_number, second_number, third_number)
         largest = max(first_number, second_number, third_number)
+        # Display the smallest and largest number
         print("The smallest number is: {}".format(smallest))
         print("The largest number: {}".format(largest))
 
