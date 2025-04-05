@@ -20,7 +20,7 @@ def main():
         second_number = int(second_number_string)
         # Casting number 3 into integer
         third_number = int(third_number_string)
-        
+
         # Check if any numbers are equal
         if first_number == second_number or first_number == third_number or second_number == third_number:
             print("Some numbers are equal.")
@@ -52,6 +52,12 @@ def main():
                 else:
                     # Display the result from smallest to largest
                     print("The number is: {} < {} < {}".format(third_number, second_number, first_number))
+            # Show the smallest and largest number
+        smallest = min(first_number, second_number, third_number)
+        largest = max(first_number, second_number, third_number)
+        print("The smallest number is: {}".format(smallest))
+        print("The largest number: {}".format(largest))
+
     except Exception:
         # Exceptions where users did not input a number as integer
         print("Invalid input, please try again.")
