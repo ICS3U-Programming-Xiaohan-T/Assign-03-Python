@@ -7,9 +7,9 @@ def main():
     # Display welcoming message
     print("Hello! Welcome to this program!")
     # Get user input of the first number as a string
-    first_number_string = input ("Please enter the fist number as integer: ")
+    first_number_string = input ("Please enter the fist number as an integer: ")
     # Get user input of the second number as a string
-    second_number_string = input ("Please enter the Second number as integer: ")
+    second_number_string = input ("Please enter the Second number as an integer: ")
     #Get user input of the third number as a string
     third_number_string = input ("Please enter the third number as integer: ")
     # try catch statement
