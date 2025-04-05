@@ -58,6 +58,10 @@ def main():
         print("The smallest number is: {}".format(smallest))
         print("The largest number: {}".format(largest))
 
+        # Calculate and show the average
+        average = (first_number + second_number + third_number) / 3
+        print("The average of the numbers is: {:.2f}".format(average))
+
     except Exception:
         # Exceptions where users did not input a number as integer
         print("Invalid input, please try again.")
