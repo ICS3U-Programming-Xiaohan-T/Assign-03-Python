@@ -20,6 +20,11 @@ def main():
         second_number = int(second_number_string)
         # Casting number 3 into integer
         third_number = int(third_number_string)
+        
+        # Check if any numbers are equal
+        if first_number == second_number or first_number == third_number or second_number == third_number:
+            print("Some numbers are equal.")
+
         # Comparing number 1 with number 2 and 3
         if first_number < second_number and first_number < third_number:
             # If above is true, comparing number 2 and 3
