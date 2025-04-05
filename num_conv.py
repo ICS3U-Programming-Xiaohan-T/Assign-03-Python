@@ -66,7 +66,7 @@ def main():
     except Exception:
         # Exceptions where users did not input a number as integer
         print("Invalid input, please try again.")
-    print("Thank you for using!")
+    print("Thank you for using the program!")
 
 if __name__ == "__main__":
     main()
