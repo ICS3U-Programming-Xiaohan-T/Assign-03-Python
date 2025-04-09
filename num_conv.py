@@ -6,7 +6,7 @@
 
 def main():
     # Display welcoming message
-    print("Hello! Welcome to this program!")
+    print("Hello! Welcome to the program!")
     # Get user input of the first number as a string
     first_number_string = input("Please enter the fist number as an integer: ")
     # Get user input of the second number as a string
