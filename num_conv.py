@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Created By: Xiaohan
 # Date: Apr 5, 2025
-# This program that compare 3 numbers from smallest to biggest
+# This program compares 3 numbers from smallest to biggest
 
 
 def main():
