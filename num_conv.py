@@ -36,9 +36,6 @@ def main():
         ):
             print("Some numbers are equal.")
 
-        # Check the numbers are equal or not
-        numbers_are_equal = True
-
         # where numbers are not equal
         if not numbers_are_equal:
             # Comparing number 1 with number 2 and 3
@@ -108,7 +105,7 @@ def main():
         # Exceptions where users did not input a number as integer
         print("Invalid input, please try again.")
 
-    # ending message
+    # Ending message
     print("Thank you for using the program!")
 
 
